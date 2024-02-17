@@ -465,7 +465,7 @@ h3 {
   margin: 0 auto;
   text-align: center;
 }
-.projects_container .project_item:hover .project_desc span {
+.projects_container .project_item .project_desc span {
   font-weight: 900;
   font-style: oblique;
   font-size: 1.5rem;
@@ -615,4 +615,22 @@ footer .contact ul li {
   margin: 10px;
   justify-content: left;
   align-items: center;
+}
+.hide {
+  transition: all 0.6s ease-in-out;
+  opacity: 0 !important;
+}
+.show {
+  transition: all 0.6s ease-in-out;
+  opacity: 1 !important;
+}
+.translateleft {
+  position: relative;
+  transform: translateX(-1000px);
+  transition: all 0.6s ease-in-out;
+}
+.translateRight {
+  position: relative;
+  transition: all 0.6s ease-in-out;
+  transform: translateX(1000px);
 }

@@ -27,17 +27,6 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
       rel="stylesheet"
     />
-    <script defer src="script.js"></script>
-    <script
-      defer
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      defer
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
   </head>
 
   <body>
@@ -66,7 +55,7 @@
         <span class="name_font">Ibrahim<br />Goumrane</span>
       </div>
     </header>
-    <section class="home section" id="home">
+    <section class="home section hide" id="home">
       <div class="me">
         <a href="#"><img src="images/me.jpg" alt="its me" class="img" /></a>
       </div>
@@ -85,7 +74,7 @@
         a relentless curiosity to explore and master this transformative field .
       </p>
     </section>
-    <section class="aboutme section" id="aboutme">
+    <section class="aboutme section hide" id="aboutme">
       <h1>About me :</h1>
       <div class="aboutmetext">
         <div class="image">
@@ -108,7 +97,7 @@
         </div>
       </div>
     </section>
-    <section class="education section" id="education">
+    <section class="education section hide" id="education">
       <h1>Education :</h1>
       <div aria-label="1">
         <h3>
@@ -135,11 +124,11 @@
         </p>
       </div>
     </section>
-    <section class="projects section" id="projects">
+    <section class="projects section hide" id="projects">
       <h1>Some Projects:</h1>
       <div class="container">
-        <h3>operations research project :</h3>
-        <div class="projects_container">
+        <h3 class="translateleft">operations research project :</h3>
+        <div class="projects_container translateRight">
           <div class="project_item" aria-label="1">
             <div class="project_img" aria-label="image">
               <img src="./images/RO_project.jpeg" alt="" />
@@ -157,8 +146,8 @@
             </div>
           </div>
         </div>
-        <h3>fruit store project:</h3>
-        <div class="projects_container">
+        <h3 class="translateleft">fruit store project:</h3>
+        <div class="projects_container translateRight">
           <div class="project_item" aria-label="1">
             <div class="project_img" aria-label="image">
               <img src="./images/fruit_store_project.jpeg" alt="" />
@@ -175,8 +164,8 @@
             </div>
           </div>
         </div>
-        <h3>medication management system project :</h3>
-        <div class="projects_container">
+        <h3 class="translateleft">medication management system project :</h3>
+        <div class="projects_container translateRight">
           <div class="project_item" aria-label="1">
             <div class="project_img" aria-label="image">
               <img src="./images/pharmacie_stock_project.jpeg" alt="" />
@@ -192,8 +181,8 @@
             </div>
           </div>
         </div>
-        <h3>fighting game project:</h3>
-        <div class="projects_container">
+        <h3 class="translateleft">fighting game project:</h3>
+        <div class="projects_container translateRight">
           <div class="project_item" aria-label="1">
             <div class="project_img" aria-label="image">
               <img src="./images/fighting-game.PNG" alt="" />
@@ -235,5 +224,14 @@
         </ul>
       </div>
     </footer>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
